@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.temperature {
+	font-size: 6rem;
+	font-weight: 800;
+}
+
+.sky {
+	text-transform: capitalize;
+}
+
+.weather__container {
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.weather__forecast {
+	background: lightcoral;
+	border-radius:  1rem;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	color: white;
+}
+
+.additional__info {
+	transform: translateX(8rem);
+	font-weight: 300;
+}
+
+.main__info {
+	transform: translateX(-5rem);
+}
